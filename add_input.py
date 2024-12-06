@@ -1,0 +1,7 @@
+user_name = input("Введите имя пользователя: ")
+title = input("Заголовок: ")
+content = input("Описание: ")
+status = input("Статус работы: ")
+created_date = input("Начало работы (дд.мм.гг.): ")
+issue_date = input("Окончание работы (дд.мм.гг.): ")
+print ("Здравствуйте,", (user_name), "Ваша тема:", (title),(content),(status), "Дата начала:", (created_date), "Дата окончани:", (issue_date))

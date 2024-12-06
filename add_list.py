@@ -1,0 +1,11 @@
+user_name = input("Введите имя пользователя: ")
+title = input("Заголовок 1: ")
+title = input("Заголовок 2: ")
+title = input("Заголовок 2: ")
+content = input("Описание: ")
+status = input("Статус работы: ")
+created_date = input("Начало работы (дд.мм.гг.): ")
+issue_date = input("Окончание работы (дд.мм.гг.): ")
+print ((user_name),(title),(content),(status),(created_date),(issue_date))
+tuple = title
+print(tuple)
